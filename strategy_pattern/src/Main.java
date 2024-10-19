@@ -1,0 +1,9 @@
+import WithStrategy.Controller.NavigationController;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        NavigationController navigationController = new NavigationController();
+        navigationController.navigate("cab");
+    }
+}
