@@ -14,8 +14,8 @@ public class Main {
         Security authentication = new Authentication();
         Security authorization = new Authorization();
 
-        authentication.setSecurityNext(authorization);
         sqlInjection.setSecurityNext(authentication);
+        authentication.setSecurityNext(authorization);
 
         sqlInjection.applyChain(userData);
     }
