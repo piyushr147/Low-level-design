@@ -49,12 +49,15 @@
         Their position, font size, and color are extrinsic (passed in).
 
 # Command design pattern
+    https://refactoring.guru/design-patterns/command
     https://www.scaler.com/topics/design-patterns/command-design-pattern/
-        
+
     The Command design pattern is a behavioral pattern that turns a request into a standalone object containing all the information about the request — such as what action to perform, on which object, and when.
 
     Intent:
     Encapsulate a request as an object, allowing you to parameterize clients with different requests, queue them, log them, and support undoable operations.
+
+    Command design pattern should be used when the caller of an operation doesn't necessarily need to know how to perform the operation. Example: A button UI component doesn't need to know how to perform the operation when it is clicked.
 
     When to Use:
         You want to parameterize objects with operations.

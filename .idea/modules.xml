@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LLD.iml" filepath="$PROJECT_DIR$/.idea/LLD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/command_design_pattern/command_design_pattern.iml" filepath="$PROJECT_DIR$/command_design_pattern/command_design_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/decorator_pattern/decorator_pattern.iml" filepath="$PROJECT_DIR$/Structural/decorator_pattern/decorator_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/factory_pattern/factory_pattern.iml" filepath="$PROJECT_DIR$/Creational/factory_pattern/factory_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/flyweight_design_pattern/flyweight_design_pattern.iml" filepath="$PROJECT_DIR$/flyweight_design_pattern/flyweight_design_pattern.iml" />
