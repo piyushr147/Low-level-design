@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/flyweight_design_pattern/flyweight_design_pattern.iml" filepath="$PROJECT_DIR$/flyweight_design_pattern/flyweight_design_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral/observable_pattern/observable_pattern.iml" filepath="$PROJECT_DIR$/Behavioral/observable_pattern/observable_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral/strategy_pattern/strategy_pattern.iml" filepath="$PROJECT_DIR$/Behavioral/strategy_pattern/strategy_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visitor_design_pattern/visitor_design_pattern.iml" filepath="$PROJECT_DIR$/visitor_design_pattern/visitor_design_pattern.iml" />
     </modules>
   </component>
 </project>
