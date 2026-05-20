@@ -1,21 +1,24 @@
 package subscriber.subscriberImpl;
 
-import publisher.PublisherInterface;
-import publisher.publisherImpl.IphonePublisher;
-import subscriber.SubscriberInterface;
+import publisher.Publisher;
+import subscriber.Subscriber;
 
-public class EmailNotificationSubscriber implements SubscriberInterface {
+public class EmailNotificationSubscriber implements Subscriber {
 
-    public PublisherInterface publisherObj;
+    public Publisher publisherObj;
     public String emailId;
 
-    public EmailNotificationSubscriber(String emailId, PublisherInterface publisherObj){
-        this.publisherObj = publisherObj;
+    public EmailNotificationSubscriber(String emailId){
         this.emailId = emailId;
     }
 
     @Override
-    public void update(int stock) {
-        System.out.println("sending email to the: " + emailId + "stocks left: " + stock);
+    public void update() {
+        System.out.println("sending email to the: " + emailId + " stocks left: " + publisherObj.getData());
+    }
+
+    @Override
+    public void setPublisher(Publisher publisher) {
+        this.publisherObj = publisher;
     }
 }

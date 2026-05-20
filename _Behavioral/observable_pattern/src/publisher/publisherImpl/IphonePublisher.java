@@ -1,35 +1,30 @@
 package publisher.publisherImpl;
 
-import publisher.PublisherInterface;
-import subscriber.SubscriberInterface;
+import publisher.Publisher;
+import subscriber.Subscriber;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class IphonePublisher implements PublisherInterface {
-    int stock = 0;
-    public List<SubscriberInterface> subscribersList = new ArrayList<>();
+public class IphonePublisher extends Publisher {
+    String name="iphone";
+    public List<Subscriber> subscribersList = new ArrayList<>();
 
     @Override
-    public void add(SubscriberInterface subscriberObj) {
+    public void add(Subscriber subscriberObj) {
         subscribersList.add(subscriberObj);
     }
 
     @Override
-    public void remove(SubscriberInterface subscriberObj) {
+    public void remove(Subscriber subscriberObj) {
         subscribersList.remove(subscriberObj);
     }
 
     @Override
     public void sendNotification() {
-        for(SubscriberInterface subscriber:subscribersList){
-            subscriber.update(stock);
+        for(Subscriber subscriber:subscribersList){
+            subscriber.setPublisher(this);
+            subscriber.update();
         }
-    }
-
-    @Override
-    public void setData(int data) {
-        if(stock>0)
-            this.sendNotification();
     }
 }

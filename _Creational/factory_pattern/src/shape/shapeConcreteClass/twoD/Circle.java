@@ -2,7 +2,7 @@ package shape.shapeConcreteClass.twoD;
 
 import shape.TwoDShape;
 
-public class Circle extends TwoDShape {
+public class Circle implements TwoDShape {
 
     public int radius;
     public String color;

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0a8e4a3-6a53-4094-bfac-b4daa6710514" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/publisher/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/subscriber/Subscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_BookMyShow/src/movie/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_BookMyShow/src/movie/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_BookMyShow/src/show/Show.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_BookMyShow/src/show/Show.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_BookMyShow/src/show/ShowClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_BookMyShow/src/enums/ShowClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_BookMyShow/src/theatre/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_BookMyShow/src/theatre/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_BookMyShow/src/ticket/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_BookMyShow/src/ticket/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_BookMyShow/src/ticket/TicketClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_BookMyShow/src/enums/TicketClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Elevator_System/src/strategy/control/LookUpStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Elevator_System/src/strategy/control/LookUpStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/constants/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/factoryManager/FactoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/factoryManager/FactoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/parkingManagerFactory/ParkingManagerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/parkingManagerFactory/ParkingManagerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/parkingManagerFactory/parkingManagerConcreteClass/FourWheelerParkingManagerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/parkingManagerFactory/parkingManagerConcreteClass/TwoWheelerParkingManagerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/vehicleFactory/VehicleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/vehicleFactory/VehicleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/vehicleFactory/vehicleFactoryConcreteClass/FourWheelerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/factory/vehicleFactory/vehicleFactoryConcreteClass/TwoWheelerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/gates/Exit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/gates/Exit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlot/ParkingSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlot/ParkingSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlot/parkingSlotConcreteClass/FourWheelerSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlot/parkingSlotConcreteClass/FourWheelerSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlot/parkingSlotConcreteClass/TwoWheelerSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlot/parkingSlotConcreteClass/TwoWheelerSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlotManager/parkingSlotConcreteClass/FourWheelerParkingSlotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlotManager/parkingSlotConcreteClass/FourWheelerParkingSlotManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlotManager/parkingSlotConcreteClass/TwoWheelerParkingSlotManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingSlotManager/parkingSlotConcreteClass/TwoWheelerParkingSlotManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingStrategy/ParkingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingStrategy/ParkingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingStrategy/parkingStrategyConcreteClass/ColumnWiseStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingStrategy/parkingStrategyConcreteClass/ColumnWiseStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingStrategy/parkingStrategyConcreteClass/RowWiseStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/parkingStrategy/parkingStrategyConcreteClass/RowWiseStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/vehicle/vehicleConcreteClass/FourWheelerVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/vehicle/vehicleConcreteClass/FourWheelerVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLD_Parking_Area/src/vehicle/vehicleConcreteClass/TwoWheelerVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD_Parking_Area/src/vehicle/vehicleConcreteClass/TwoWheelerVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Behavioral/observable_pattern/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_Behavioral/observable_pattern/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/publisher/PublisherInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/publisher/publisherImpl/IphonePublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/publisher/publisherImpl/IphonePublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/publisher/publisherImpl/PixelPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/publisher/publisherImpl/PixelPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/subscriber/SubscriberInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/subscriber/subscriberImpl/EmailNotificationSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/subscriber/subscriberImpl/EmailNotificationSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/subscriber/subscriberImpl/MessageNotificationSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Behavioral/observable_pattern/src/subscriber/subscriberImpl/MessageNotificationSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Behavioral/strategy_pattern/src/WithStrategy/strategy/StrategyInterface/RouteStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Behavioral/strategy_pattern/src/WithStrategy/strategy/StrategyInterface/RouteStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Creational/factory_pattern/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_Creational/factory_pattern/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/ThreeDShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/ThreeDShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/TwoDShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/TwoDShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/shapeConcreteClass/threeD/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/shapeConcreteClass/threeD/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/shapeConcreteClass/threeD/Sphere.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/shapeConcreteClass/threeD/Sphere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/shapeConcreteClass/twoD/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/shapeConcreteClass/twoD/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/shapeConcreteClass/twoD/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_Creational/factory_pattern/src/shape/shapeConcreteClass/twoD/Square.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "piyushr147"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/piyushr147/LLD-Low-level-design-.git",
+    "accountId": "1b958229-6e4a-48e2-9947-6524e4b6ff82"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="305shzBBWjgLxeAtu0zaorqF1bA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Piyush.Rawat/development/LLD/LLD_ATM",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0a8e4a3-6a53-4094-bfac-b4daa6710514" name="Changes" comment="" />
+      <created>1752928891462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752928891462</updated>
+      <workItem from="1752928892670" duration="635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

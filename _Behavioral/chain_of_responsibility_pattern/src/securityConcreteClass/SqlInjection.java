@@ -1,18 +1,18 @@
 package securityConcreteClass;
 
-import interfaces.Security;
+import interfaces.SecurityFilter;
 import userData.UserData;
 
-public class SqlInjection extends Security {
+public class SqlInjection extends SecurityFilter {
     @Override
-    public boolean applyChain(UserData userData) {
+    public boolean doFilter(UserData userData) {
         if(userData.username.contains("select * from")||userData.password.contains("select * from")){
             System.out.println("username or password contains sql injection queries");
             return false;
         }
         else{
             System.out.println("username or password are safe from sql injection");
-            return securityNext.applyChain(userData);
+            return super.doFilter(userData);
         }
     }
 }

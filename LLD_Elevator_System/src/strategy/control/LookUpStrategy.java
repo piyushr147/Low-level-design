@@ -14,7 +14,7 @@ public class LookUpStrategy extends ElevatorControlStrategy{
 
     private List<ElevatorController> elevatorControllerList;
     PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-    PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+    PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a,b)->b-a);
 
     @Override
     public void moveElevator(ElevatorController elevatorController) {

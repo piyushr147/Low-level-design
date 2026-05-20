@@ -2,7 +2,7 @@ package shape.shapeConcreteClass.threeD;
 
 import shape.ThreeDShape;
 
-public class Sphere extends ThreeDShape {
+public class Sphere implements ThreeDShape {
     public int radius;
     public String color;
 
@@ -11,8 +11,8 @@ public class Sphere extends ThreeDShape {
         this.color = color;
         System.out.println("HI iam sphere with color:"+this.color);
         System.out.println("sphere's volume and surfaceA: "+calculateVolume()+", "+calculateSurfaceArea());
-
     }
+
     @Override
     public int calculateVolume() {
         System.out.println("calculating sphere volume");

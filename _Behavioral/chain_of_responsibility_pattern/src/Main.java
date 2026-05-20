@@ -1,4 +1,4 @@
-import interfaces.Security;
+import interfaces.SecurityFilter;
 import securityConcreteClass.Authentication;
 import securityConcreteClass.Authorization;
 import securityConcreteClass.SqlInjection;
@@ -10,13 +10,12 @@ public class Main {
     public static void main(String[] args) {
 
         UserData userData = new UserData("piyush","piyush123","admin");
-        Security sqlInjection = new SqlInjection();
-        Security authentication = new Authentication();
-        Security authorization = new Authorization();
+        SqlInjection sqlInjection = new SqlInjection();
+        Authentication authentication = new Authentication();
+        Authorization authorization = new Authorization();
 
-        sqlInjection.setSecurityNext(authentication);
-        authentication.setSecurityNext(authorization);
+        sqlInjection.setNext(authentication).setNext(authorization);
 
-        sqlInjection.applyChain(userData);
+        boolean isAuthenticated = sqlInjection.doFilter(userData);
     }
 }

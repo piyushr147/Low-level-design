@@ -1,15 +1,15 @@
 package securityConcreteClass;
 
-import interfaces.Security;
+import interfaces.SecurityFilter;
 import userData.UserData;
 
-public class Authentication extends Security {
+public class Authentication extends SecurityFilter {
 
     @Override
-    public boolean applyChain(UserData userData) {
+    public boolean doFilter(UserData userData) {
         if(userData.username == "piyush" && userData.password == "piyush123"){
             System.out.println("both username and password are correct");
-            return securityNext.applyChain(userData);
+            return super.doFilter(userData);
         }
         else{
             System.out.println("wrong username password");

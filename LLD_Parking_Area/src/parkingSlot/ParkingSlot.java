@@ -1,17 +1,18 @@
 package parkingSlot;
 
+import enums.WheelerType;
 import vehicle.Vehicle;
 
 public class ParkingSlot {
     private int slot_id;
-    private int type;
+    private WheelerType type;
     private int price;
     private boolean isEmpty;
     private Vehicle vehicle;
 
     public ParkingSlot(){}
 
-    public ParkingSlot(int slot_id, int type, int price,boolean isEmpty, Vehicle vehicle) {
+    public ParkingSlot(int slot_id, WheelerType type, int price, boolean isEmpty, Vehicle vehicle) {
         this.slot_id = slot_id;
         this.type = type;
         this.price = price;
@@ -31,11 +32,11 @@ public class ParkingSlot {
         this.slot_id = slot_id;
     }
 
-    public int getType() {
+    public WheelerType getType() {
         return type;
     }
 
-    public void setType(int type) {
+    public void setType(WheelerType type) {
         this.type = type;
     }
 

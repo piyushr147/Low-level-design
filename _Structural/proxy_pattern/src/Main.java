@@ -6,16 +6,16 @@ import youtube.proxy.YoutubeProxy;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Youtube youtube = new Youtube();
-        YoutubeProxy youtubeProxy = new YoutubeProxy(youtube);
+        YoutubeProxy youtubeProxy = new YoutubeProxy(new Youtube());
 
         youtubeProxy.setVideo(new Video(1,"lucky bisht",4));
         youtubeProxy.setVideo(new Video(2,"armed forces",4));
         youtubeProxy.setVideo(new Video(3,"cricket top 10 moments",4));
 
-        for(Video video: youtube.getAllVideos()){
+        for(Video video: youtubeProxy.getAllVideos()){
             System.out.println(video.title);
         }
+        System.out.println(youtubeProxy.getVideo(1).title);
         System.out.println(youtubeProxy.getVideo(1).title);
     }
 }

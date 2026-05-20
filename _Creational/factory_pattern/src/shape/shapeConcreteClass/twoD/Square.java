@@ -2,7 +2,7 @@ package shape.shapeConcreteClass.twoD;
 
 import shape.TwoDShape;
 
-public class Square extends TwoDShape {
+public class Square implements TwoDShape {
 
     public int length;
     public String color;

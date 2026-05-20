@@ -9,17 +9,25 @@ public class Main {
         IphonePublisher iphonePublisher = new IphonePublisher();
         PixelPublisher pixelPublisher = new PixelPublisher();
 
-        EmailNotificationSubscriber email1 = new EmailNotificationSubscriber("piyush@1",iphonePublisher);
-        EmailNotificationSubscriber email2 = new EmailNotificationSubscriber("piyush@2",pixelPublisher);
-        MessageNotificationSubscriber message1 = new MessageNotificationSubscriber("1234",iphonePublisher);
-        MessageNotificationSubscriber message2 = new MessageNotificationSubscriber("2345",pixelPublisher);
+        EmailNotificationSubscriber email1 = new EmailNotificationSubscriber("piyush@1");
+        EmailNotificationSubscriber email2 = new EmailNotificationSubscriber("piyush@2");
+        MessageNotificationSubscriber message1 = new MessageNotificationSubscriber("1234");
+        MessageNotificationSubscriber message2 = new MessageNotificationSubscriber("2345");
 
         iphonePublisher.add(email1);
         iphonePublisher.add(message1);
         pixelPublisher.add(email1);
         pixelPublisher.add(message1);
 
-        iphonePublisher.sendNotification();
-        pixelPublisher.sendNotification();
+        iphonePublisher.setData(10);
+        pixelPublisher.setData(11);
+
+        iphonePublisher.setData(0);
+        pixelPublisher.setData(0);
+
+        iphonePublisher.setData(100);
+        pixelPublisher.setData(200);
+
+
     }
 }

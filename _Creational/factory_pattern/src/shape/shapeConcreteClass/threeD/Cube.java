@@ -2,7 +2,7 @@ package shape.shapeConcreteClass.threeD;
 
 import shape.ThreeDShape;
 
-public class Cube extends ThreeDShape {
+public class Cube implements ThreeDShape {
     public int length;
     public String color;
 

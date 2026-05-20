@@ -19,13 +19,16 @@ public class YoutubeProxy implements YoutubeInterface {
         if(videoListCache == null || videoListCache.isEmpty()){
             videoListCache = youtube.getAllVideos();
         }
+        System.out.println("Returning from the cache");
         return videoListCache;
     }
 
     @Override
     public Video getVideo(int id) {
-        if(videoCache != null && videoCache.id == id)
+        if(videoCache != null && videoCache.id == id) {
+            System.out.println("Returning from the cache");
             return videoCache;
+        }
         videoCache = youtube.getVideo(id);
         return videoCache;
     }
